@@ -1,0 +1,21 @@
+# Build output
+build/
+cmake-build-*/
+out/
+
+# Local databases and uploads created while testing
+*.db
+*.sqlite
+/data/
+
+# Reports
+coverage.xml
+cppcheck.txt
+*.gcda
+*.gcno
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
